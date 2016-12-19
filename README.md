@@ -10,6 +10,9 @@
 #RobustPatchImpl
 这个项目是具体实现修复功能的项目，依赖于RobustPatch项目
 
+#结构图
+![](http://img.blog.csdn.net/20161216175838621?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvamlhbmd3ZWkwOTEwNDEwMDAz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+
 #运行
 整个运行流程很简单，先运行修复包工程RobustPatchImpl得到apk文件之后，获取其classes.dex文件改名成patch.dex，放到sd卡下即可。当然这个步骤不是必须的，可以直接加载apk文件，放到自己定义的目录下即可，只要修改Application的加载代码即可。
 
